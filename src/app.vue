@@ -9,6 +9,8 @@
 
             <router-view name="topnavbar"></router-view>
 
+            <router-view name="uiview"></router-view>
+
             <!-- Main view  -->
             <router-view name="ibox_tools"></router-view>
 
