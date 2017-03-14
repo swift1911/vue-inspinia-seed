@@ -1,0 +1,34 @@
+{
+  "name": "fdd.release",
+  "description": "fangdd Release Center Front-End",
+  "author": "duyalin@fangdd.com",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "build": "cross-env webpack --progress",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --inline --hot"
+  },
+  "dependencies": {
+    "vue": "^2.0.5",
+    "vue-router": "^2.0.0",
+    "vue-resource": "^1.0.3",
+    "vuex": "^1.0.0",
+    "inspinia": "^2.6.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.13.2",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^9.8.0",
+    "less-loader": "^3.0.0",
+    "less": "^2.3.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1",
+    "extract-text-webpack-plugin": "^2.1.0"
+  }
+}
