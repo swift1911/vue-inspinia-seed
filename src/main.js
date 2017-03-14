@@ -9,6 +9,7 @@ import uiview from './components/uiview.vue'
 
 Vue.use(VueRouter);
 require('inspinia');
+require('./index.html');
 
 const router = new VueRouter({
     routes: [
