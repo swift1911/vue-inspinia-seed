@@ -8,6 +8,7 @@ import topnavbar from './components/common/topnavbar.vue'
 
 Vue.use(VueRouter);
 require('inspinia');
+require('./index.html');
 
 const router = new VueRouter({
     routes: [
