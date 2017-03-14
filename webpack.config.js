@@ -5,9 +5,6 @@ module.exports = {
     context: path.resolve(__dirname, "src"),
     entry: {
         app: './main.js',
-        vendors: [
-            'inspinia'
-        ]
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -27,7 +24,14 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: 'css-loader'
+                use: [
+                    {
+                        loader: 'style-loader'
+                    },
+                    {
+                        loader: 'css-loader'
+                    }
+                ]
             },
             {
                 test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
