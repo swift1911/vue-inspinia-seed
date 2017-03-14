@@ -51,9 +51,9 @@ module.exports = {
             {
                 test: /\.html$/,
                 use: [{
-                    loader: 'html-loader',
+                    loader: 'file-loader',
                     options: {
-                        minimize: true
+                        name: "[name].[ext]"
                     }
                 }]
             }
