@@ -7,7 +7,7 @@ import navigation from './components/common/navigation.vue'
 import topnavbar from './components/common/topnavbar.vue'
 
 Vue.use(VueRouter);
-require('git ');
+require('inspinia');
 
 const router = new VueRouter({
     routes: [
